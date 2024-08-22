@@ -1,0 +1,11 @@
+[package]
+name = "embedded_framework"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+embedded-hal = "0.2"
+nb = "1.0"
+
+[dev-dependencies]
+assert_matches = "1.5"
